@@ -9,7 +9,7 @@ export const ResultsWrapper = styled.table`
     text-align: right;
 `
 
-export const TableHead = styled.thead`
+export const TableHead = styled.th`
     font-size: 0.7rem;
     color: #83e6c0;
 `
