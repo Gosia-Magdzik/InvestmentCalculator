@@ -5,7 +5,7 @@ import { ResultsWrapper,
         Center,
 } from './styled';
 
-export const Results = () => {
+export const Results = ({ userInput }) => {
   return (
     <ResultsWrapper>
 
