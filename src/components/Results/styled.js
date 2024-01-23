@@ -20,6 +20,3 @@ export const TableBody = styled.tbody`
     color: #c2e9e0;
 `
 
-export const Center = styled.p`
-    text-align: center;
-`
