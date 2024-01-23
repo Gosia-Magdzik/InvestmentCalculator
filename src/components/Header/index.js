@@ -3,7 +3,7 @@ import { HeaderWrapper,
         Img,
         Title, 
         } from './styled';
-import logo from '../../assets/investment-calculator-logo.png'
+import logo from '../../assets/icon.png'
 
 export const Header = () => {
   return (
