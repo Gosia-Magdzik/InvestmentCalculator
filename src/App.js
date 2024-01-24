@@ -2,6 +2,11 @@ import { Header } from './components/Header';
 import { UserInput } from './components/UserInput';
 import { Results } from './components/Results';
 import { useState } from 'react';
+import { styled } from 'styled-components';
+
+const Center = styled.p`
+  text-align: center;
+`
 
 function App() {
 
@@ -28,7 +33,7 @@ function App() {
     <>
       <Header/>
       <UserInput onChange={handleChange} userInput={userInput}  />
-      {!inputIsValid && (<p style={{ textAlign: "center" }}>Please put a positive value</p>) }
+      {!inputIsValid && (<Center>Please put a positive value</Center>) }
       {inputIsValid && <Results userInput={userInput} />}
     </>
   );
